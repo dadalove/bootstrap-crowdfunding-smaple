@@ -1,0 +1,63 @@
+body{
+  background-color: #B56D6D;
+}
+.nav-bg{
+  background-color: #33383C;
+}
+.img-width{
+  width: 100%;
+}
+.btn-border-w{
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-border-w:hover{
+  border-width: 1px solid #df691a;
+}
+.btn-border{
+  color: #fff;
+  border: 1px solid #C1AAA4;
+  transition: all .3s;
+}
+.btn-border:hover{
+  color: #ddd;
+  background-color: #C1AAA4;
+}
+.left-col-title{
+  margin-top: 63px;
+}
+.page-header{
+  border-bottom-color: #ccc;
+}
+.right-col-container{
+  margin-top: 40px;
+}
+.right-col-topContainer{
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 10px; 
+  margin-bottom: 20px; 
+  background-color: #B56D6D;
+}
+.right-col-top{
+  margin-left: -15px;
+}
+.right-col-top h2{
+  margin-bottom: 3px;
+}
+.right-col-top p{
+  color: #ccc;
+}
+.btn-money{
+  background-color: #33383C;
+}
+.btn-money:hover{
+  background-color: #2C2F31;
+}
+@media screen and (max-width: 768px){
+  .right-col-top h2{
+    font-size: 16px;
+  }
+  .right-col-top p{
+    font-size: 12px;
+  }
+}
